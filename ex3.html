@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            background-color:rgb(208, 240, 232);
+            font-family: "맑은 고딕", sans-serif;
+        }
+        .header{background-color: rgb(0, 0, 0);
+                color: white;
+                padding: 30px;/* 안쪽면 */
+                text-align: center;
+         }
+
+        .menu{
+            background-color: rgb(108, 247, 103);
+            padding: 20px; /* 박스안쪽여백 */
+            text-align: center;
+  }
+        .menu a{
+            color:#333333;/* 링크한문자에 컬러변경하기 */
+            text-decoration: none;/* 링크한문자에 밑줄없애기 */
+        }
+
+        .menu a:hover{ /* 마우스 올렸을때 변환액션 */
+            color:rgb(210, 105, 30);
+        }
+
+        .content{
+            max-width: 1200px;
+            margin: 30px auto; /* 위아래는 30px, 좌우는 가운데정렬 */
+            padding: 30px;/* 안쪽 여백 */
+            background-color: white;
+            text-align: center
+        }
+        .content img{
+            width: 100%; /* 이미지 사이즈 위 콘텐츠박스 크기 맞춰서 채우기 */
+        }
+
+        .button{
+            display: inline-block;/* 문자외형을 박스로 인식해라 */
+            background-color: #333333; /* 박스배경색 */
+            color:white;/* 박스안에 문자색 */
+            padding:12px 30px; /* 박스안에 여백주고 문자 여유있게 보이도록 설정 */
+            text-decoration: none; /* 링크상 생기는 밑줄 없애기 */
+        }
+
+        .button:hover{
+            background-color: rgb(74, 255, 98); /* 마우스를 hover하면 컬러가 변경되어랏 */
+        }
+
+        .footer{
+            background-color: beige;
+            color:navy;
+            padding:20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>my web page</h1>
+        <p>나의 첫번째 웹페이지 입니다.</p>
+    </div>
+
+    <div class="menu">
+        <a href="https://heyzine.com/flip-book/ba37782798.html" target="_blank">헤이진</a> 
+        <a href="https://online.fliphtml5.com/zhita/ewdm/" target="_blank">깃허브</a>
+        <a href="">PDF</a>
+    </div>
+
+    <div class="content">
+        <h2>안녕하세요!</h2>
+        <p>연듀 포트폴리오예염</p>
+        <img src="img/jay.jpg" alt="재현이 잘생겼다">
+        <a href="http://naver.com" target="_blank"
+        class="button">바로가기</a>
+    </div>
+    <div class="footer">
+        <p>Copyright 2026. All Rights Reserved.</p>
+    </div>
+
+
+</body>
+</html>
